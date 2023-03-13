@@ -1,0 +1,93 @@
+@media(max-width:992px){
+    .container{
+        max-width: 768px;
+    }
+    .head-menu{
+        display: none;
+    }
+    .header-adapt{
+        display: block;
+    }
+    .home{
+        padding: 150px 0;
+    }
+    .home-inner{
+        flex-wrap: wrap;
+    }
+    .home-left{
+        width: 100%;
+    }
+    .home-right{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .account-inner{
+        flex-wrap: wrap;
+    }
+    .account-left{
+        width: 100%;
+    }
+    .account-right{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .collect-inner{
+        flex-wrap: wrap;
+    }
+    .collect-left{
+        width: 100%;
+    }
+    .collect-right{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .Tranding-card{
+        flex-wrap: wrap;
+    }
+    .card-eth{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .descover-card{
+        flex-wrap: wrap;
+    }
+    .descover-item{
+        width: calc(50% - 30px);
+    }
+    .artlink-head{
+        flex-wrap: wrap;
+    }
+    .footer-artlink{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .footer-policies{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .footer-company{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .footer-icons{
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+@media(max-width:768px){
+    .container{
+        max-width: 720px;
+    }
+    .descover-card{
+        flex-wrap: wrap;
+    }
+    .descover-item{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+@media(max-width:576px){
+    .container{
+        max-width: 540px;
+    }
+}

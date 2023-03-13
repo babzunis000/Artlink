@@ -1,0 +1,68 @@
+.footer {
+  background-color: #242c34;
+}
+.footer-artlink img {
+  height: 40px;
+}
+.footer-artlink p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+}
+.artlink-head {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-policies {
+  line-height: 1.4;
+}
+.footer-policies h5 {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+.footer-policies a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  text-decoration: none;
+}
+.footer-company a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  text-decoration: none;
+}
+.footer-company h5 {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+.footer-company {
+  line-height: 1.4;
+}
+.footer-icons h5 {
+  color: #fff;
+  font-size: 20px;
+}
+.footer-icons-inner {
+  display: flex;
+  padding: 10px;
+}
+.icon-facebook {
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.line {
+  height: 3px;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 60px;
+  color: rgba(255, 255, 255, 0.5);
+}

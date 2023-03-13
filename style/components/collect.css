@@ -1,0 +1,79 @@
+.collect{
+    width: 100%;
+    background-color: #343f4b;
+}
+.marketPlace h6{
+    background-image: -webkit-linear-gradient(left, #1f86ef, #1f86ef, #ffb60b, #f13e74, #da3746);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+.collect-left h2{
+    font-weight: 700;
+    line-height: 1.4;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.5;
+    color:#fff;
+}
+.collect-left p{
+    color: #6b6e6f ;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 0;
+    --bs-gutter-x: 1.5rem;
+}
+.cre button{
+    padding: 6px 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    border: 1px solid #183b56;
+    color: #183b56;
+    font-weight: 600;
+    letter-spacing: .5px;
+    border-radius: 40px;
+}
+.cre button:hover{
+    background-color: #183b56;
+    color: #fff;
+    transition: all .5s;
+    letter-spacing: .5px;
+    
+    position: relative;
+}
+.collect-right a{
+    background-color:  rgba(238,87,76,.2);
+}
+.collect-inner{
+    display: flex;
+}
+.collect-right{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Wallet{
+    width: calc(50% - 30px);
+
+}
+.collect-left,.collect-right{
+    width: calc(50% - 30px);
+}
+.digital{
+    width:calc(50% - 30px);
+}
+.collect-right p{
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: rgba(255,255,255,.3);
+}
+.collect-right h6{
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+    margin-top: 0;
+}
+.Wallet h6{
+    color: #fff;
+}

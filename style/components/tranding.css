@@ -1,0 +1,72 @@
+.best h6 {
+  background-image: -webkit-linear-gradient(
+    left,
+    #1f86ef,
+    #1f86ef,
+    #ffb60b,
+    #f13e74,
+    #da3746
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.Tranding {
+  background-color: #303841;
+}
+.Best h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+.Best p {
+  color: #6b6e6f;
+}
+.Tranding-inner {
+  display: grid;
+  width: 90%;
+}
+.card-eth {
+  background-color: #242c43;
+  color: #183b56;
+  width: calc(33.3% - 30px);
+  /* height: 111px; */
+  margin-top: 20px;
+  text-decoration: none;
+  display: flex;
+  border-radius: 10px;
+  padding: 20px;
+  /* position: relative; */
+  justify-content: space-between;
+}
+.card-eth img {
+  border-radius: 40px;
+}
+.Tranding-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+.eth a {
+  text-decoration: none;
+}
+.eth {
+  line-height: 1.4;
+  margin-right: 40px;
+  display: flex;
+}
+.eth h6 {
+  color: #fff;
+}
+.eth p {
+  color: rgba(255, 255, 255, 0.3);
+}
+.tranding-right {
+  color: #fff;
+}
+.tranding-right a {
+  color: #fff;
+}

@@ -1,0 +1,72 @@
+.descover{
+    background-color: #343f4b;
+}
+.descover-head h2{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #ffffff;
+}
+.descover-head p{
+    color: rgba(255,255,255,.3);
+}
+.descover-card{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.descover-item{
+    height: auto;
+    width: calc(25% - 30px);
+    
+}
+.descover-item img{
+    width:100%;
+    border-radius: 20px;}
+.descover-img-bottom{
+    display: flex;
+    justify-content: space-between;
+}    
+.descover-img-bottom h6{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.img-min img{
+    border: 4px solid #303841;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    
+    
+}
+.img-min{
+    display: flex;
+    justify-content: space-between;
+}
+.min-bid{
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+    border-radius: 5px;
+    color: rgba(107,110,111,.2);
+}
+.min-bid h6, span{
+    color: #ffffff;
+}
+.descover-button{
+    
+        background: #ee574c;
+        color: #fff;
+        border-color: #ee574c;
+         border: 1px solid;
+    border-radius: 15px;
+    height: 30px;
+
+}
+.descover-head{
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.4;
+}

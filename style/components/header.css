@@ -1,0 +1,56 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 25px;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background-color:#303841;
+}
+.head-menu a {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.head-menu a:not(:last-child) {
+  margin-right: 16px;
+}
+.head-menu a:hover {
+  color: red;
+  transition: 0.3s;
+}
+.head-logo img {
+  width: 100px;
+}
+.btn-primary {
+  background: #ee574c;
+  color: #fff;
+  border: 1px solid #ee574c;
+}
+.btn-primary:hover{
+  color: #fff;
+  transition: 0.3;
+}
+.btn {
+  padding: 6px 20px;
+  font-size: 6px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  border-radius: 20px;
+  outline: none;
+  margin-left: 10px;
+}
+.header-adapt {
+  display: none;
+}
+.header-adapt i {
+  font-size: 20px;
+  margin-right: 30px;
+  color: #fff;
+}

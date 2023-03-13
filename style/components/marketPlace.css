@@ -1,0 +1,45 @@
+.marketPlace-inner{
+    text-align: center;
+}
+.marketPlace-head{
+    background-image: -webkit-linear-gradient(left, #1f86ef, #1f86ef, #ffb60b, #f13e74, #da3746);
+    -webkit-background-clip: text;
+    /* transparent -прозрачный */
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 1.4;
+}
+.marketPlace-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-color: #ee574c;
+    
+}
+.marketPlace{
+    background-color: #303841;
+}
+
+.marketPlace-button button:first-child{
+    background-color: #ee574c;
+    color: #fff;
+    border: 1px solid #ee574c;
+    padding: 12px 30px;
+    border-radius: 20px;
+}
+.marketPlace-button button:last-child{
+    border: 1px solid #183b56;
+    background-color: #183b56;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    transition: .5s;
+    border-radius: 20px;
+}
+.marketPlace-text{
+    font-size: 45px;
+    color: #fff;
+}
